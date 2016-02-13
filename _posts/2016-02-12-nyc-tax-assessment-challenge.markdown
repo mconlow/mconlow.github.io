@@ -5,8 +5,6 @@ date: "2016-02-13 16:19:57 -0500"
 categories: jekyll update
 ---
 
-
-
 ## Understanding NYC property tax assessment challenges
 
 ### You don't need to let the seemingly complicated tax certiorari process beat you. 
