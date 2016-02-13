@@ -1,6 +1,10 @@
 ---
 published: true
+layout: post
+date: "2016-02-13 16:19:57 -0500"
+categories: jekyll update blog
 ---
+
 
 
 ## Understanding NYC property tax assessment challenges
