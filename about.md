@@ -2,14 +2,10 @@
 layout: page
 title: About
 permalink: /about/
+published: true
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+This is personal blog of Mike Conlow, a Brooklyn technologist. You can read more about my professional background [here](https://www.linkedin.com/in/mikeconlow).
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+On this site, you'll find my blog, with thoughts about hobby tech projects, and probably finance and sports posts as well. I doubt I'll use this blog for politics.
