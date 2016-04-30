@@ -1,5 +1,8 @@
 ---
 published: false
+layout: post
+date: "2016-04-30 10:19:57 -0500"
+categories: tech
 ---
 ## A Raspberry Pi Temperature Sensor
 
