@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-date: "2016-04-29 22:19:57 -0500"
+date: "2016-04-29 10:19:58 -0500"
 categories: tech
 ---
 ## A Raspberry Pi Temperature Sensor
