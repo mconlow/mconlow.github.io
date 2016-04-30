@@ -1,5 +1,8 @@
 ---
 published: true
+layout: post
+date: "2016-04-29 10:19:57 -0500"
+categories: golf
 ---
 ## DIY 2-camera golf swing analysis
 
