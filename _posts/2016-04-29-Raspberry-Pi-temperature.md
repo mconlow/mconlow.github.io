@@ -10,6 +10,7 @@ When I found out we were having a baby, I immediately clicked into gear and star
 
 There are plenty of tutorials on the internet. I am pushing the data to Sparkfun, and visualizing it with Google Charts. Here is the live temperature in my bedroom (or whatever room the Raspberry Pi is currently in):
 
+<div id="chart" style="width: 100%;"></div>
 
 
 
