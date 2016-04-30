@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## DIY 2-camera golf swing analysis
 
@@ -31,4 +31,3 @@ Kinovea isn't designed for golf swings, but has all the functionality you need. 
 After all this, my takeaway is still too far inside.
 
 ![IMG_20160429_215321_01 (1).jpg]({{site.baseurl}}/_posts/IMG_20160429_215321_01 (1).jpg)
-
