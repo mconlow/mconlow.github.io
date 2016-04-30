@@ -33,4 +33,4 @@ Kinovea isn't designed for golf swings, but has all the functionality you need. 
 
 After all this, my takeaway is still too far inside.
 
-![]({{site.baseurl}}/blog/_posts/IMG_20160429_215321_01.jpg)
+![]({{site.baseurl}}/images/IMG_20160429_215321_01.jpg)
