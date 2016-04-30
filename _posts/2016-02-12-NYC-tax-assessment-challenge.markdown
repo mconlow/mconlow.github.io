@@ -6,7 +6,7 @@ categories: jekyll update
 ---
 
 
-## Understanding NYC property tax assessment challenges
+## Understanding NYC property tax assessment challenges:
 
 ### You don't need to let the seemingly complicated tax certiorari process beat you. 
 
