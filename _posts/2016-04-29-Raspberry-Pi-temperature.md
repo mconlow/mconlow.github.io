@@ -5,59 +5,107 @@ date: "2016-04-29 10:19:58 -0500"
 categories: tech
 ---
 
-   <!-- EXTERNAL LIBS-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="https://www.google.com/jsapi"></script>
+<!-- EXTERNAL LIBS-->
 
-    <!-- EXAMPLE SCRIPT -->
-    <script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
-      // onload callback
-      function drawChart() {
-
-        var public_key = 'n1y4G2oxMxSOoNb7azNm';
-
-        // JSONP request
-        var jsonData = $.ajax({
-          url: 'https://data.sparkfun.com/output/' + public_key + '.json',
-          data: {page: 1},
-          dataType: 'jsonp',
-        }).done(function (results) {
-
-          var data = new google.visualization.DataTable();
-
-          data.addColumn('datetime', 'Time');
-          data.addColumn('number', 'Temp');
-         
-
-          $.each(results, function (i, row) {
-            data.addRow([
-              (new Date(row.timestamp)),
-              parseFloat(row.temp)
-            ]);
-          });
-
-          var chart = new google.visualization.LineChart($('#chart').get(0));
-
-          chart.draw(data, {
-            title: 'Mike Temperature Chart'
-          });
-
-        });
-
-      }
-
-      // load chart lib
-      google.load('visualization', '1', {
-        packages: ['corechart']
-      });
-
-      // call drawChart once google charts is loaded
-      google.setOnLoadCallback(drawChart);
-
-    </script>
+<script src="https://www.google.com/jsapi"></script>
 
 
+
+<!-- EXAMPLE SCRIPT -->
+
+<script>
+
+
+
+// onload callback
+
+function drawChart() {
+
+
+
+var public_key = 'n1y4G2oxMxSOoNb7azNm';
+
+
+
+// JSONP request
+
+var jsonData = $.ajax({
+
+url: 'https://data.sparkfun.com/output/' + public_key + '.json',
+
+data: {page: 1},
+
+dataType: 'jsonp',
+
+}).done(function (results) {
+
+
+
+var data = new google.visualization.DataTable();
+
+
+
+data.addColumn('datetime', 'Time');
+
+data.addColumn('number', 'Temp');
+
+
+
+
+
+$.each(results, function (i, row) {
+
+data.addRow([
+
+(new Date(row.timestamp)),
+
+parseFloat(row.temp)
+
+]);
+
+});
+
+
+
+var chart = new google.visualization.LineChart($('#chart').get(0));
+
+
+
+chart.draw(data, {
+
+title: 'Mike Temperature Chart'
+
+});
+
+
+
+});
+
+
+
+}
+
+
+
+// load chart lib
+
+google.load('visualization', '1', {
+
+packages: ['corechart']
+
+});
+
+
+
+// call drawChart once google charts is loaded
+
+google.setOnLoadCallback(drawChart);
+
+
+
+</script>
 
 ## A Raspberry Pi Temperature Sensor
 
