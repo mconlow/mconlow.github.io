@@ -7,7 +7,7 @@ I decided to set up a portable 2-camera golf swing analysis system. Though my dr
 
 [This swing analysis setup has been done before](http://www.kinovea.org/en/forum/viewtopic.php?id=600), so I am only lending my voice to budget-friendliness and feasibility.
 
-Ingredients
+**Ingredients**
 
 1 Windows laptop
 1 download of [Kinovea](http://www.kinovea.org/), open source sports video analysis software
@@ -16,7 +16,7 @@ Ingredients
 2 [USB extension cords](https://www.amazon.com/gp/product/B001MSU1FS/ref=oh_aui_detailpage_o02_s00?ie=UTF8&psc=1) - $10.98
 2 [Tripods](https://www.amazon.com/gp/product/B018ICYNKY/ref=oh_aui_detailpage_o03_s00?ie=UTF8&psc=1) with a smartphone "adapter" - $19.98
 
-Setup
+**Setup**
 
 This [post](http://www.kinovea.org/en/forum/viewtopic.php?id=600) is exactly right -- it does work to have two of the same cameras doing dual-capture, simultaneously. But the order you plug in the cameras is extremely important. Follow the directions in that post precisely. If it doesn't work, the next time plug the first camera into a different USB port.
 
