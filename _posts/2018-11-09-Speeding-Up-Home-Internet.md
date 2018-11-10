@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## Router Settings to improve home internet performance
 
@@ -20,6 +20,3 @@ In addition to the bandwidth number, there are other factors to consider:
 -**Upload speed** is increasingly important as more people use the internet in a two-way fashion, mostly by using video chat functions and syncing large amounts of data into cloud services. Typically cable internet has much lower upload speeds, whereas fiber has matching upload and download speeds.
 
 -**Latency/ping time** is how fast data travels from your computer out to the interenet and reaches its destination. It is certainly the most important number for gaming, where data needs to reach someone else very quickly, and also very important for video chat. It is measured in the number of milliseconds data takes to reach its destination. Fiber providers can get under 10ms of latency, whereas cable internet is typical noticably worse.
-
-
-
